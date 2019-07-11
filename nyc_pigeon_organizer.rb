@@ -6,5 +6,6 @@ def nyc_pigeon_organizer(data)
       names.each do |name|
         if hash[name]
           hash[name] ={}
-          
+        end
+      if hash[name]
 end
