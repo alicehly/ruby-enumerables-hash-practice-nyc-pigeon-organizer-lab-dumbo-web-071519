@@ -9,6 +9,7 @@ def nyc_pigeon_organizer(data)
         end
       if hash[name][key]
         hame[name]=[]
-        hash[name][key] << details.to_s
       end
+      hash[name][key] << details.to_s
+      
 end
