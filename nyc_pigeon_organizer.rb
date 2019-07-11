@@ -5,5 +5,6 @@ def nyc_pigeon_organizer(data)
     value.each do |details, name|
       names.each do |name|
         if hash[name]
+          hash[name] ={}
           
 end
